@@ -2,6 +2,6 @@
 Name=Mock Provider
 Service=org.freedesktop.Geoclue.Providers.Mock
 Path=/org/freedesktop/Geoclue/Providers/Mock
-Interfaces=org.freedesktop.Geoclue.Position
+Interfaces=org.freedesktop.Geoclue.Position;org.freedesktop.Geoclue.Velocity;org.freedesktop.Geoclue.Satellite
 Provides=ProvidesUpdates
-Accuracy=None
+Accuracy=Detailed
